@@ -1,12 +1,12 @@
 # Byte-compiled / optimized / DLL files
-models*
+# models*
 output*
 logs*
 taming*
 samples*
 datasets*
 asset*
-_*
+# _*
 logs*
 __pycache__/
 *.py[cod]
@@ -15,6 +15,7 @@ scripts_demo*
 
 train_output/
 metadata.json
+test_data/
 
 # C extensions
 *.so
@@ -23,7 +24,7 @@ metadata.json
 .Python
 build/
 develop-eggs/
-dist/
+# dist/
 downloads/
 eggs/
 .eggs/
