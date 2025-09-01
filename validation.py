@@ -87,7 +87,8 @@ config_path         = "./wan_civitai_5b.yaml"
 # model path
 model_name          = "/home/notebook/data/group/zhaoheng/pretrained_models/Wan2.2-Fun-5B-InP"
 # transformer_path = "/home/notebook/data/group/zhaoheng/code/video/VideoX-Fun/videox_fun_work_dirs/train_pai_wan2.1_fun_v1.1_1.3b_inp/checkpoint-8000/transformer/diffusion_pytorch_model.safetensors"
-transformer_path = "/home/notebook/code/personal/S9060429/VideoX-Fun/train_output/wan2.2/no_person_cityscene_adapter_full/checkpoint-500/transformer/diffusion_pytorch_model*.safetensors"
+# transformer_path = "/home/notebook/code/personal/S9060429/VideoX-Fun/train_output/wan2.2/no_person_cityscene_adapter_full/checkpoint-500/transformer/diffusion_pytorch_model*.safetensors"
+transformer_path = None
 
 # model_name          = "models/Diffusion_Transformer/Wan2.1-Fun-V1.1-14B-InP"
 # transformer_path = "/home/notebook/data/group/zhaoheng/code/video/VideoX-Fun/videox_fun_work_dirs/train_pai_wan2.1_fun_v1.1_14b_inp/checkpoint-8000/transformer/diffusion_pytorch_model.safetensors"
